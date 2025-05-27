@@ -1,0 +1,85 @@
+{
+  "restaurante": {
+    "nombre": "Guisados Cesar",
+    "direccion": "Central 456, Colonia Los Álamos, Ciudad Sol, CP 12345",
+    "Telefono": "52 686 675 123",
+    "personal": [
+      {
+        "nombrePersonal": "Manuel Lopez",
+        "edad": 34,
+        "salario": 200,
+        "telefono": "686 789 001",
+        "ocupacion": "Cocinero"
+      },
+      {
+        "nombrePersonal": "Antonio Ruiz",
+        "edad": "20",
+        "salario": 4500,
+        "telefono": "686 576 234",
+        "ocupacion": "Mesero"
+      },
+      {
+        "nombrePersonal": "Paco Villa",
+        "edad": "45",
+        "salario": 134,
+        "telefono": "664 145 260",
+        "ocupacion": "Lavaplatos"
+      },
+      {
+        "nombrePersonal": "Laura Sánchez",
+        "edad": 29,
+        "salario": 3100,
+        "telefono": "686 123 456",
+        "ocupacion": "Hostess"
+      },
+      {
+        "nombrePersonal": "Carlos Méndez",
+        "edad": 41,
+        "salario": 2750,
+        "telefono": "664 789 654",
+        "ocupacion": "Chef Principal"
+      },
+      {
+        "nombrePersonal": "Sofía Jiménez",
+        "edad": 33,
+        "salario": 3600,
+        "telefono": "686 654 321",
+        "ocupacion": "Cajera"
+      },
+      {
+        "nombrePersonal": "Javier Ortega",
+        "edad": 27,
+        "salario": 1980,
+        "telefono": "664 234 890",
+        "ocupacion": "Ayudante de Cocina"
+      },
+      {
+        "nombrePersonal": "Elena Morales",
+        "edad": 38,
+        "salario": 4200,
+        "telefono": "686 890 123",
+        "ocupacion": "Gerente"
+      }
+    ],
+    "ventas": [
+      {
+        "precio": 90,
+        "metodo_pago": "Debito",
+        "platillo": "Chiles Rellenos",
+        "cliente": "Juan Meza Marquez"
+      },
+      {
+        "precio": 85,
+        "metodo_pago": "Debito",
+        "platillo": "Pozole Rojo",
+        "cliente": "Juan Meza Marquez"
+      },
+      {
+        "precio": 120,
+        "metodo_pago": "Debito",
+        "platillo": "Tacos",
+        "cliente": "Juan Meza Marquez"
+      }
+    ]
+  }
+}
