@@ -63,22 +63,28 @@
     ],
     "ventas": [
       {
-        "precio": 90,
-        "metodo_pago": "Debito",
-        "platillo": "Chiles Rellenos",
-        "cliente": "Juan Meza Marquez"
+        "precio": 95,
+        "metodo_pago": "Crédito",
+        "platillo": "Carnitas",
+        "cliente": "Jorge Ramírez López"
       },
       {
-        "precio": 85,
+        "precio": 115,
         "metodo_pago": "Debito",
-        "platillo": "Pozole Rojo",
-        "cliente": "Juan Meza Marquez"
+        "platillo": "Carnitas",
+        "cliente": "Fulgencio aguirre"
       },
       {
-        "precio": 120,
+        "precio": 115,
         "metodo_pago": "Debito",
-        "platillo": "Tacos",
-        "cliente": "Juan Meza Marquez"
+        "platillo": "Carnitas",
+        "cliente": "Esteban Colorado"
+      },
+      {
+        "precio": 115,
+        "metodo_pago": "Debito",
+        "platillo": "Sopa",
+        "cliente": "Bob Alonso"
       }
     ]
   }

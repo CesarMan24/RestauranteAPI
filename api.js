@@ -72,6 +72,13 @@ app.delete("/restaurante/personal/:nombrePersonal", (req, res) => {
   res.status(200).json({ mensaje: "Personal eliminado" });
 });
 
+app.delete("/restaurante/ventas", (req, res) => {
+  // Eliminar todas las ventas registradas
+  const restaurante = leerJSON();
+  restaurante.restaurante.ventas = [];
+  escribirJSON(restaurante);
+  res.status(200).json({ mensaje: "Todas las ventas han sido eliminadas" });
+});
 app.post("/restaurante/ventas/enviar-sqs", async (req, res) => {
   const restaurante = leerJSON();
   const ventas = restaurante.restaurante.ventas;
