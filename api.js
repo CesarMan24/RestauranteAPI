@@ -105,6 +105,24 @@ app.post("/restaurante/ventas/enviar-sqs", async (req, res) => {
   });
 });
 
+app.put("/restaurante/personal/:nombrePersonal", (req, res) => {
+  const nombrePersonal = req.params.nombrePersonal;
+  const nuevosDatos = req.body;
+  const restaurante = leerJSON();
+
+  const personal = restaurante.restaurante.personal;
+  const persona = personal.find((p) => p.nombrePersonal === nombrePersonal);
+
+  if (!persona) {
+    return res.status(404).json({ mensaje: "Personal no encontrado" });
+  }
+
+  Object.assign(persona, nuevosDatos);
+  escribirJSON(restaurante);
+
+  res.json({ mensaje: "Personal actualizado", personal: persona });
+});
+
 app.listen(PORT, (err) => {
   //console.log(err);
   console.log(`app listening on port ${PORT}`);
